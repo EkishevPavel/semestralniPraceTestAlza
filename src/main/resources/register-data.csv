@@ -1,0 +1,125 @@
+IvanaSimonova33002@seznam.cz
+Insert(Null)
+Insert(Null)
+77752634
+-
+Heslo nesmí obsahovat znaky: <>()'"%;&
+-
+Zadaný telefon je příliš krátký.
+
+IvanaSimonova33002@seznam.cz
+12345678
+1234567
+7775263403
+-
+Dobré
+Hodnoty těchto polí se musí shodovat
+Číslo si prosím zkontrolujte. Pokud bude zadáno špatně, dopravce se vám nedovolá a doručení bude problematické.
+
+IvanaSimonova33002@seznam.cz
+1234567
+1234567
+zero
+-
+Heslo musí mít alespoň 8 znaků
+-
+Zadejte telefon.
+
+mistercheldon@gmail.com
+1234567
+1234567
+777526340
+Email je již využíván.
+Heslo musí mít alespoň 8 znaků
+-
+-
+
+mistercheldon@gmail.com
+Insert(Null)
+1234567
+zero
+Email je již využíván.
+Heslo nesmí obsahovat znaky: <>()'"%;&
+-
+Zadejte telefon.
+
+mistercheldon@gmail.com
+12345678
+12345678
+7775263
+Email je již využíván.
+-
+-
+Zadaný telefon je příliš krátký.
+
+mistercheldon@gmail.com
+12345678
+123456
+7775263443
+Email je již využíván.
+Dobré
+Hodnoty těchto polí se musí shodovat
+Číslo si prosím zkontrolujte. Pokud bude zadáno špatně, dopravce se vám nedovolá a doručení bude problematické.
+
+@@
+12345678
+123456
+777526340
+Nesprávný formát emailu
+Dobré
+Hodnoty těchto polí se musí shodovat
+-
+
+@@
+123456
+1234
+zero
+Nesprávný formát emailu
+Heslo musí mít alespoň 8 znaků
+Hodnoty těchto polí se musí shodovat
+Zadejte telefon.
+
+@@
+12345678
+12345678
+7775263
+Nesprávný formát emailu
+Dobré
+-
+Zadaný telefon je příliš krátký.
+
+@@
+Insert(Null)
+1234567
+7775263403
+Nesprávný formát emailu
+Heslo nesmí obsahovat znaky: <>()'"%;&
+-
+Číslo si prosím zkontrolujte. Pokud bude zadáno špatně, dopravce se vám nedovolá a doručení bude problematické.
+
+IvanaSimonova33002@seznam.cz
+12345678
+12345678
+7775263
+-
+-
+-
+Zadaný telefon je příliš krátký.
+
+IvanaSimonova33002@seznam.cz
+Insert(null)
+123456
+777526340
+-
+Heslo nesmí obsahovat znaky: <>()'"%;&
+Hodnoty těchto polí se musí shodovat
+-
+
+IvanaSimonova33002@seznam.cz
+12345678
+12345678
+777526340
+-
+-
+-
+-
