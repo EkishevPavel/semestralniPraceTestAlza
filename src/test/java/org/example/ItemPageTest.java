@@ -35,6 +35,7 @@ public class ItemPageTest {
         itemRankCount = itemRankCount.substring(0, itemRankCount.length() - 1);
         int rankCountOnItemPage = Integer.parseInt(itemRankCount);
         itemPage.reviews.click();
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
         Thread.sleep(1000);
         String countRankNumFive = driver.findElement(By.xpath("//*[@id='recenze']/div[1]/div/div[2]/div[1]/div/div[2]/div[1]/span[2]")).getText();
         String countRankNumFourth = driver.findElement(By.xpath("//*[@id='recenze']/div[1]/div/div[2]/div[1]/div/div[2]/div[2]/span[2]")).getText();

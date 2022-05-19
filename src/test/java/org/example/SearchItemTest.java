@@ -35,6 +35,8 @@ public class SearchItemTest {
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new HomePage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
         homePage.acceptCOOOOOOCKIE.click();
         homePage.inputSearchText.sendKeys(itemNames[0]);
         Thread.sleep(1000);

@@ -24,6 +24,8 @@ public class BucketPageTest {
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new HomePage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
         homePage.acceptCOOOOOOCKIE.click();
         Thread.sleep(2000);
         homePage.firstSwapEl.click();
@@ -61,6 +63,8 @@ public class BucketPageTest {
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new HomePage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
         homePage.acceptCOOOOOOCKIE.click();
         Thread.sleep(1000);
         homePage.firstSwapEl.click();
@@ -84,6 +88,8 @@ public class BucketPageTest {
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new HomePage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
         homePage.acceptCOOOOOOCKIE.click();
         Thread.sleep(2000);
         homePage.firstSwapEl.click();
@@ -115,6 +121,8 @@ public class BucketPageTest {
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new HomePage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
         homePage.acceptCOOOOOOCKIE.click();
         Thread.sleep(2000);
         homePage.firstSwapEl.click();
@@ -151,6 +159,8 @@ public class BucketPageTest {
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new HomePage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
         homePage.acceptCOOOOOOCKIE.click();
         Thread.sleep(2000);
         homePage.firstSwapEl.click();
@@ -248,6 +258,7 @@ public class BucketPageTest {
         Thread.sleep(2000);
         driver.switchTo().activeElement().sendKeys(Keys.ENTER);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        Thread.sleep(2000);
         WebElement zvoltePlatbuEl = driver.findElement(By.xpath("//*[contains(text(),'Zvolte platbu' )]"));
         WebElement kartouOnline = driver.findElement(By.xpath("//*[contains(text(),'Kartou online' )]"));
         WebElement googlePay = driver.findElement(By.xpath("//*[contains(text(),'Google Pay' )]"));
