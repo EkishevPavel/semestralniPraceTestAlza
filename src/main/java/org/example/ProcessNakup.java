@@ -18,8 +18,13 @@ public class ProcessNakup {
         HomePage homePage = new HomePage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
         homePage.acceptCOOOOOOCKIE.click();
-        Thread.sleep(1000);
-        homePage.firstSwapEl.click();
+        Thread.sleep(4000);
+
+        try {
+            homePage.firstSwapEl.click();
+        }catch (Exception e){
+            homePage.secondSwapEl.click();
+        }
         ItemPage itemPage = new ItemPage(driver);
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
         itemNames[0][0] = itemPage.itemName.getText();

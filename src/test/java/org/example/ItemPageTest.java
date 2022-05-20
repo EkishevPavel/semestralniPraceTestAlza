@@ -93,6 +93,7 @@ public class ItemPageTest {
         Thread.sleep(2000);
         anonymBtn.click();
         driver.findElement(By.xpath("//button[@type='submit']")).click();
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
         Thread.sleep(2000);
         WebElement recenzeIsSubmit = driver.findElement(By.xpath("//*[contains(text(),'Děkujeme za vaši recenzi')]"));
         Assert.assertNotEquals(recenzeIsSubmit, null);

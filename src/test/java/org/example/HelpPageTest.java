@@ -76,7 +76,9 @@ public class HelpPageTest {
         driver.findElement(By.xpath("//*[@id='userEmail']")).clear();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id='userEmail']")).sendKeys(data[1]);
-//        driver.findElement(By.xpath("//*[@id='addDiscussionPost']/span[2]")).click();
+        driver.findElement(By.xpath("//*[@id='addDiscussionPost']/span[2]")).click();
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+        Thread.sleep(2000);
         WebElement uspech = null;
         try {
             uspech = driver.findElement(By.xpath("//*[contains(text(),'Příspěvek byl úspěšně přidán')]"));
